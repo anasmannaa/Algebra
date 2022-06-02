@@ -1,9 +1,10 @@
 /* enclose-maximum-area.cpp : This file contains the solution for the problem of finding
-   the dimensions and  maximum rectang1ular area (with or without subdividions) that can be enclosed
+   the dimensions and  maximum rectangular area (with or without subdividions) that can be enclosed
    given the length of available fence (string......) and the number of subdivisions as inputs.
-   The algebric idea behind is to transform the area equation A=LW into a quadratic equation
-   and to get the maximum value of its parabola (the veertex) and use it to find out the 
-   maximum area and dimensions. The following diagram shows an area with two subdivisions.
+   The algebric idea behind is to transform the area formula (A=LW) into a quadratic equation
+   using the values of the user inputs, and find out the maximum value of its parabola (the veertex) which can
+   be used to find out the maximum enclosed area and dimensions. The following diagram shows hypothetical example
+   of some area divided into two subdivisions.
 
             Length         
    -------------------------
